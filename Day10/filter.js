@@ -1,3 +1,5 @@
+// filter 
+
 let users = [
     {
         name   : "nabi",
@@ -62,25 +64,10 @@ let users = [
 ]
 
 
-let kathmanduUsers = [];
-users.map((value,index)=>{
+let kathmanduUsers = 
+users.filter((value,index)=>{
     if(value.address === 'kathmandu'){
-        kathmanduUsers.push(value);
+        return value;
     }
-})
+});
 console.log(kathmanduUsers)
-
-let groupped = {};
-
-users.map((value,index)=>{
-    let key = value.address.toLocaleLowerCase()
-    if(!groupped[key]){
-        groupped[key] = [];
-    }
-            groupped[key].push(value);
-    }
-)
-console.log(groupped)
-// now create different array for users 
-// with different address
-// with different language

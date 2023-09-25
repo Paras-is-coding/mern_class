@@ -1,0 +1,32 @@
+// github 
+//gitlab
+//bitbucket
+
+
+// git clone "https or ssh "
+
+// git init 
+// git remote add origin url
+
+// git add .      or     git add filename
+// git commit -m "message of commit"
+
+// git status 
+
+// git push origin main
+
+// git config pull.rebase false   
+
+
+// branching 
+// git status                    --should be clean
+
+** to create new branch
+// git checkout -b <branchname>
+
+** to switch to branch 
+// git checkout <branchname>
+
+** to list out branch 
+// git branch 
+

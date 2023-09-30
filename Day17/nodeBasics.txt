@@ -1,0 +1,41 @@
+--- initialize node project 
+npm init   or   npm init -y 
+
+--- install package 
+npm install <packagename> 
+
+--- unstall package 
+npm uninstall <packagename>
+
+--- global install of package
+eg :  npm i yarn -g                     -> package manager like npm 
+      npm i nodemon -g                   -> restart server on change in file
+
+
+
+---- install package as dev dependency 
+npm i <packagename> --save-dev            ->package only available for dev environment
+
+--- unstall -> remove from package.json   
+npm install
+
+
+
+
+
+
+//packages 
+fs 
+http
+events
+crypto
+
+
+
+
+//look today 
+what is rest 
+what is api 
+methods in rest
+how client call server 
+request response cycle

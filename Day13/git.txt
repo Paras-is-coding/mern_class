@@ -30,3 +30,6 @@
 ** to list out branch 
 // git branch 
 
+** push paras local branch to paras(if is there or first create it) at github
+// git push origin paras
+// git push origin paras:main          -- push paras to main 
